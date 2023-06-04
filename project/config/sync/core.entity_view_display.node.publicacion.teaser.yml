@@ -1,0 +1,32 @@
+uuid: 9c9e74e6-ab10-40e1-ac8a-b11424b800e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.publicacion.field_categoria
+    - field.field.node.publicacion.field_descripcion
+    - field.field.node.publicacion.field_enlaces_relacionados
+    - field.field.node.publicacion.field_imagenes
+    - field.field.node.publicacion.field_palabras_clave
+    - field.field.node.publicacion.field_titulo
+    - node.type.publicacion
+  module:
+    - user
+id: node.publicacion.teaser
+targetEntityType: node
+bundle: publicacion
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_categoria: true
+  field_descripcion: true
+  field_enlaces_relacionados: true
+  field_imagenes: true
+  field_palabras_clave: true
+  field_titulo: true

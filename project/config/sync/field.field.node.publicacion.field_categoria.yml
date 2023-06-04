@@ -1,0 +1,29 @@
+uuid: 20f375e4-9a56-404a-94ec-c272aa743a7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria
+    - node.type.publicacion
+    - taxonomy.vocabulary.categoria
+id: node.publicacion.field_categoria
+field_name: field_categoria
+entity_type: node
+bundle: publicacion
+label: Categoría
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoria: categoria
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

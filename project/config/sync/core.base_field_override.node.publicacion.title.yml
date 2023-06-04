@@ -1,0 +1,18 @@
+uuid: 3ae8bf29-25c9-424d-8ceb-5bb5393c43f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.publicacion
+id: node.publicacion.title
+field_name: title
+entity_type: node
+bundle: publicacion
+label: Publicación
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
