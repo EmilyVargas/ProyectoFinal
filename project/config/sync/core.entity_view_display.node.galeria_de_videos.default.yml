@@ -1,0 +1,29 @@
+uuid: 1983bdfa-4d4d-41a5-bf45-aa6ca4ce8ccf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.galeria_de_videos.field_galeria_videoblogs
+    - node.type.galeria_de_videos
+  module:
+    - user
+id: node.galeria_de_videos.default
+targetEntityType: node
+bundle: galeria_de_videos
+mode: default
+content:
+  field_galeria_videoblogs:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,18 @@
+uuid: 2cd03c7e-7461-4eea-b548-3c6f80385dcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.galeria_de_videos
+id: node.galeria_de_videos.title
+field_name: title
+entity_type: node
+bundle: galeria_de_videos
+label: 'Galeria de videos'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

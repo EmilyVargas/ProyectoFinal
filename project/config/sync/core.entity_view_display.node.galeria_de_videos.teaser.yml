@@ -1,0 +1,22 @@
+uuid: fb9e9c3c-3b34-4ab7-bd81-96e6a721143c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.galeria_de_videos.field_galeria_videoblogs
+    - node.type.galeria_de_videos
+  module:
+    - user
+id: node.galeria_de_videos.teaser
+targetEntityType: node
+bundle: galeria_de_videos
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_galeria_videoblogs: true

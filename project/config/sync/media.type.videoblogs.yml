@@ -1,0 +1,13 @@
+uuid: 95d3831a-5b34-476b-a5ab-bdba5afbd37e
+langcode: en
+status: true
+dependencies: {  }
+id: videoblogs
+label: Videoblogs
+description: ''
+source: video_file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_video_file
+field_map: {  }
