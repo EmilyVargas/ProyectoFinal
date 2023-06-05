@@ -1,0 +1,30 @@
+uuid: 5ce0ecf2-ffd1-47d1-9464-e15e6292f0f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.lading_page.body
+    - node.type.lading_page
+  module:
+    - text
+    - user
+id: node.lading_page.teaser
+targetEntityType: node
+bundle: lading_page
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

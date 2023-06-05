@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.publicacion.field_categoria
+    - field.field.node.publicacion.field_comentarios
     - field.field.node.publicacion.field_descripcion
     - field.field.node.publicacion.field_enlaces_relacionados
     - field.field.node.publicacion.field_imagenes
@@ -12,6 +13,7 @@ dependencies:
     - image.style.thumbnail
     - node.type.publicacion
   module:
+    - comment
     - image
     - link
     - path
@@ -35,6 +37,12 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_comentarios:
+    type: comment_default
+    weight: 128
+    region: content
+    settings: {  }
     third_party_settings: {  }
   field_descripcion:
     type: string_textarea

@@ -1,0 +1,18 @@
+uuid: b9e0d515-9519-4081-ad59-6e838a26195b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.lading_page
+id: node.lading_page.title
+field_name: title
+entity_type: node
+bundle: lading_page
+label: 'Lading Page'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
