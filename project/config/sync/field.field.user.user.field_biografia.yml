@@ -1,0 +1,21 @@
+uuid: ae586f59-6e77-478f-acb4-9eabfc7b78b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_biografia
+  module:
+    - text
+    - user
+id: user.user.field_biografia
+field_name: field_biografia
+entity_type: user
+bundle: user
+label: Biografía
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

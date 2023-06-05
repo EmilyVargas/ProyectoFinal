@@ -1,38 +1,36 @@
-uuid: 9aa327d9-38b2-4dee-9d74-aa8443314d6e
+uuid: d9dad5c0-cd0c-45bc-ab31-d68008909b5d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.user.user_picture
+    - field.storage.user.field_imagen
   module:
     - image
     - user
-_core:
-  default_config_hash: twhm-ZOwSVkUjuLI_pQsaPo_pVLcqFfDmY-ojfqw0yk
-id: user.user.user_picture
-field_name: user_picture
+id: user.user.field_imagen
+field_name: field_imagen
 entity_type: user
 bundle: user
-label: Picture
-description: 'Your virtual face or picture.'
+label: Imagen
+description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:file'
   handler_settings: {  }
-  file_directory: 'pictures/[date:custom:Y]-[date:custom:m]'
+  file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''
   min_resolution: ''
-  alt_field: false
-  alt_field_required: false
+  alt_field: true
+  alt_field_required: true
   title_field: false
   title_field_required: false
   default_image:
-    uuid: null
+    uuid: ''
     alt: ''
     title: ''
     width: null
