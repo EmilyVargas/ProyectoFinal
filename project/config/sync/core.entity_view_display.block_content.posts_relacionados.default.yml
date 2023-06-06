@@ -1,0 +1,22 @@
+uuid: b6b972b9-0664-4fac-84cf-524a71b6874f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.posts_relacionados
+    - field.field.block_content.posts_relacionados.body
+  module:
+    - text
+id: block_content.posts_relacionados.default
+targetEntityType: block_content
+bundle: posts_relacionados
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

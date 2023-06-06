@@ -15,8 +15,12 @@ dependencies:
   module:
     - comment
     - image
-    - link
+    - layout_builder
     - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
 id: node.publicacion.default
 targetEntityType: node
 bundle: publicacion
@@ -37,7 +41,7 @@ content:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
-    weight: 7
+    weight: 6
     region: content
   field_descripcion:
     type: basic_string
@@ -45,18 +49,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 3
-    region: content
-  field_enlaces_relacionados:
-    type: link
-    label: above
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
-    weight: 5
     region: content
   field_imagenes:
     type: image
@@ -75,7 +67,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 6
+    weight: 5
     region: content
   field_titulo:
     type: string
@@ -90,4 +82,5 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-hidden: {  }
+hidden:
+  field_enlaces_relacionados: true

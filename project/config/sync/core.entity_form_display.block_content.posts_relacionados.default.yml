@@ -1,0 +1,33 @@
+uuid: 8cbb2f2e-7fab-4523-9e2d-f3e4c1443a9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.posts_relacionados
+    - field.field.block_content.posts_relacionados.body
+  module:
+    - text
+id: block_content.posts_relacionados.default
+targetEntityType: block_content
+bundle: posts_relacionados
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
