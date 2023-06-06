@@ -1,0 +1,341 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/node\/5?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/node\/publicacion"
+        },
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/node\/publicacion\/revision_uid": [
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/node\/publicacion\/uid": [
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/node\/publicacion\/field_categoria": [
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/taxonomy\/term\/2?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/node\/publicacion\/field_imagenes": [
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_ZtScLN.png"
+            },
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_OWATVR.png"
+            },
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_8ecS9O.png"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/node\/publicacion\/field_palabras_clave": [
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/taxonomy\/term\/11?_format=hal_json"
+            },
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/taxonomy\/term\/11?_format=hal_json"
+            },
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/taxonomy\/term\/11?_format=hal_json"
+            },
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/taxonomy\/term\/10?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a878c3a9-5604-4aef-91e9-434fed5573e1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "publicacion"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-06-06T04:00:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/node\/publicacion\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3770bc9-05c7-4edc-b2d6-5830fec39adf"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/node\/publicacion\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3770bc9-05c7-4edc-b2d6-5830fec39adf"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/node\/publicacion\/field_categoria": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/taxonomy\/term\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/taxonomy_term\/categoria"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "28448a90-136b-4281-b399-30db88203883"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/node\/publicacion\/field_imagenes": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_ZtScLN.png"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "300428c7-5312-407b-a29a-11ef08a5b8d1"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_OWATVR.png"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6687f67d-9f36-4f1d-b01d-5c8df7678e2c"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_8ecS9O.png"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "80c02032-8741-4151-ac7b-6a5de392d1e8"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/node\/publicacion\/field_palabras_clave": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/taxonomy\/term\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/taxonomy_term\/palabras_clave"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "31bbf152-6aa9-4ec7-8e5a-a4b45ea02b17"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/taxonomy\/term\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/taxonomy_term\/palabras_clave"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "31bbf152-6aa9-4ec7-8e5a-a4b45ea02b17"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/taxonomy\/term\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/taxonomy_term\/palabras_clave"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "31bbf152-6aa9-4ec7-8e5a-a4b45ea02b17"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/taxonomy\/term\/10?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/taxonomy_term\/palabras_clave"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "539740de-92ac-43b4-820b-7a076be4c274"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Aptent Letalis Meus",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-31T02:15:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-06-06T04:00:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_comentarios": [
+        {
+            "status": 0,
+            "cid": 0,
+            "last_comment_timestamp": 1686024031,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_descripcion": [
+        {
+            "value": "Camur commoveo dignissim facilisi gemino haero. Antehabeo commoveo duis exputo gravis iustum jus laoreet mos nibh. Abico conventio esse facilisi hos mauris pneum turpis venio vero. Abbas obruo secundum ullamcorper utinam. Amet ea exputo sit ulciscor valetudo vindico vulputate. Camur iaceo immitto probo quis refoveo sino suscipere usitas. Eum ex mauris tamen. Adipiscing ex jugis mauris quis.\n\nAbbas esse imputo. Esse macto obruo proprius secundum sit typicus ut vindico virtus. Duis facilisis letalis melior pagus pecus valde virtus. Aliquam blandit distineo dolus ex exputo huic jumentum letalis utrum.\n\nDecet eu fere loquor meus nisl praemitto vel. Diam iaceo illum imputo melior nimis paratus quibus roto. Abluo letalis nobis tation torqueo. Adipiscing eligo qui sudo tincidunt usitas. Accumsan gilvus in sit tum. Ratis vindico virtus. Eum hendrerit patria quia refoveo verto. Caecus camur humo inhibeo iustum laoreet occuro sino suscipere virtus.\n\nAptent capto facilisi refero saepius tincidunt typicus usitas virtus zelus. Exputo ibidem occuro pecus pneum saepius usitas venio voco. Abbas appellatio duis fere hendrerit vereor. Dignissim natu nostrud rusticus tincidunt usitas vindico. Exputo ideo luptatum occuro refero saluto uxor. Abbas abigo damnum paratus patria singularis ullamcorper.\n\nBlandit lenis wisi. Aptent commoveo laoreet luptatum veniam. Dolore iaceo paratus sudo. Conventio feugiat jumentum populus proprius roto. Illum letalis olim saluto tation. Exerci lobortis nobis obruo quidem quis. Adipiscing hendrerit mauris natu nulla obruo torqueo veniam volutpat. Antehabeo iriure lenis. Abdo elit ille in laoreet letalis suscipere. Bene exputo hos loquor. Consectetuer esca euismod fere inhibeo jus nutus quis zelus.\n\nConventio cui damnum dignissim si vel vero ymo. Nimis usitas valetudo. Abbas incassum jugis melior meus typicus. Abbas in neo olim populus praemitto similis tum. Euismod feugiat iriure meus nunc paulatim quia. Euismod iaceo ibidem importunus nostrud proprius saluto secundum. Antehabeo consequat conventio decet dignissim erat illum jus lucidus nobis.\n\nAppellatio augue exerci nutus. Esca ille ulciscor valetudo. Huic metuo olim probo saepius veniam vero vulputate. Bene nutus qui. Ea esse letalis loquor patria saepius saluto tamen tincidunt.\n\nAppellatio causa distineo enim gemino patria tation. Elit si singularis. Abluo capto dignissim ibidem imputo iriure lucidus nunc qui verto. Facilisi iustum luctus melior odio persto premo tation vel verto. Antehabeo decet humo ille melior paratus premo ut wisi. Appellatio cogo feugiat humo inhibeo jus nibh paratus sagaciter secundum. Abico augue ullamcorper. Ea gemino hendrerit mos nibh nimis vindico. Dignissim euismod meus pneum tamen validus.\n\nBrevitas nibh refoveo ut. Aliquam bene commoveo defui genitus neque obruo olim praesent sed. Bene consequat dolore lenis lucidus occuro paulatim plaga pneum refoveo. Blandit feugiat laoreet. At exputo haero praesent saepius tation ymo. Aptent capto hos nostrud olim. Brevitas dolore esca facilisi lobortis odio ulciscor vel.\n\nConventio eros natu nunc saepius. Accumsan facilisi quis vero vindico. Distineo fere genitus humo pala vulputate. Consectetuer jumentum nutus quidem vulputate. Abico consequat defui dolor dolore feugiat metuo meus natu te. Brevitas conventio laoreet nobis pneum wisi. Blandit diam mauris si turpis. Dolus hendrerit imputo magna quae. Camur ideo oppeto sagaciter.\n\nDuis ludus pala scisco. Cui erat imputo premo verto. Eros illum si tamen. Laoreet nutus refero. Gravis quidne saepius torqueo wisi. Gilvus immitto nimis obruo. Duis exputo metuo nisl nostrud obruo praesent quia tation. Antehabeo exputo iaceo nobis oppeto plaga tego utinam. Cogo ea macto sagaciter ulciscor. Abdo eu hos macto nimis obruo qui te.\n\nIaceo iustum jugis pagus veniam. Inhibeo lenis pertineo. Aliquam eum facilisis melior nulla populus turpis vicis vulputate. Blandit incassum pala quadrum utinam. Brevitas erat huic illum jumentum probo saepius tation te volutpat. Abdo camur erat haero huic magna melior modo pala veniam. Eligo iustum modo. Acsi plaga quia suscipit.\n\n"
+        }
+    ],
+    "field_enlaces_relacionados": [
+        {
+            "uri": "http:\/\/www.cludewaspur.org",
+            "title": "Et genitus letalis pneum sit tation volutpat.",
+            "options": []
+        },
+        {
+            "uri": "http:\/\/www.shisibrujodam.gov",
+            "title": "Antehabeo commoveo ludus luptatum praemitto velit voco.",
+            "options": []
+        },
+        {
+            "uri": "http:\/\/www.tibachocr.gov",
+            "title": "",
+            "options": []
+        },
+        {
+            "uri": "http:\/\/www.thuslisposwu.edu",
+            "title": "",
+            "options": []
+        }
+    ],
+    "field_titulo": [
+        {
+            "value": "fruc"
+        }
+    ]
+}

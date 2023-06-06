@@ -1,0 +1,162 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/media\/13\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/media\/videoblogs"
+        },
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/media\/videoblogs\/uid": [
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/media\/videoblogs\/thumbnail": [
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/sites\/default\/files\/media-icons\/generic\/video.png",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/media\/videoblogs\/field_media_video_file": [
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/xathU2v7vU.txt",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 13
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9e28f6a6-8266-49b9-93c9-774e2c75f30f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "videoblogs"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-06-06T18:10:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/media\/videoblogs\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3770bc9-05c7-4edc-b2d6-5830fec39adf"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/media\/videoblogs\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/sites\/default\/files\/media-icons\/generic\/video.png"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b5b77375-71d2-48a7-91d8-a94ba67f32d4"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/media\/videoblogs\/field_media_video_file": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/xathU2v7vU.txt"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "87ea88ad-7fb2-481b-b949-060ac64f9515"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Quia",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-31T18:42:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-06-06T18:10:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_descripcion_video": [
+        {
+            "value": "crotiswipribuswipidi"
+        }
+    ]
+}

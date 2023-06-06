@@ -1,4 +1,4 @@
-uuid: 8177285f-b54c-4f2c-824d-4e53668dc9e0
+uuid: f5a47035-3a12-4c77-97f9-21de1dc5a3ee
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Galería de videos'
+name: 'Galería de Videos'
 type: galeria_de_videos
 description: ''
 help: ''

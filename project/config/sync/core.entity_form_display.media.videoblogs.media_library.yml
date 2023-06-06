@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_form_mode.media.media_library
+    - field.field.media.videoblogs.field_descripcion_video
     - field.field.media.videoblogs.field_media_video_file
     - media.type.videoblogs
 id: media.videoblogs.media_library
@@ -21,6 +22,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_descripcion_video: true
   field_media_video_file: true
   path: true
   status: true

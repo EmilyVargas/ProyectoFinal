@@ -7,6 +7,7 @@ dependencies:
     - node.type.homepage
   module:
     - layout_builder
+    - layout_discovery
     - text
     - user
 third_party_settings:
@@ -17,33 +18,16 @@ third_party_settings:
       -
         layout_id: layout_onecol
         layout_settings:
-          label: ''
-        components:
-          b22bfc13-4f9e-421b-b627-9622c60d0e87:
-            uuid: b22bfc13-4f9e-421b-b627-9622c60d0e87
-            region: content
-            configuration:
-              id: 'extra_field_block:node:homepage:links'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-            weight: 0
-            additional: {  }
-          bd7dfe83-2a9f-4f7a-9b1c-ed9b3c938758:
-            uuid: bd7dfe83-2a9f-4f7a-9b1c-ed9b3c938758
-            region: content
-            configuration:
-              id: 'field_block:node:homepage:body'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: text_default
-                label: hidden
-                settings: {  }
-                third_party_settings: {  }
-            weight: 1
-            additional: {  }
+          label: Menu
+          context_mapping: {  }
+        components: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: Footer
+          context_mapping: {  }
+        components: {  }
         third_party_settings: {  }
 id: node.homepage.default
 targetEntityType: node

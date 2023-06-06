@@ -1,0 +1,32 @@
+uuid: 4785b20b-6429-4655-8bf9-fe3153b60264
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.autor_del_post
+  module:
+    - node
+    - views
+  theme:
+    - olivero
+id: views_block__autor_del_post_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:autor_del_post-block_1'
+settings:
+  id: 'views_block:autor_del_post-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      publicacion: publicacion

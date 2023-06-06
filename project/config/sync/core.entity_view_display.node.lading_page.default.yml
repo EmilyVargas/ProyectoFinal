@@ -7,6 +7,7 @@ dependencies:
     - node.type.lading_page
     - views.view.lista_de_categorias
     - views.view.listado_de_todos_los_posts
+    - views.view.ultimos_posts
   module:
     - layout_builder
     - text
@@ -49,6 +50,19 @@ third_party_settings:
               views_label: ''
               items_per_page: none
             weight: 0
+            additional: {  }
+          64b43a74-0934-4012-a580-626443f97a9b:
+            uuid: 64b43a74-0934-4012-a580-626443f97a9b
+            region: second
+            configuration:
+              id: 'views_block:ultimos_posts-block_1'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 1
             additional: {  }
         third_party_settings: {  }
 id: node.lading_page.default

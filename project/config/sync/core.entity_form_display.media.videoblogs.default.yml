@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.videoblogs.field_descripcion_video
     - field.field.media.videoblogs.field_media_video_file
     - media.type.videoblogs
   module:
@@ -18,6 +19,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_descripcion_video:
+    type: string_textfield
+    weight: 101
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_media_video_file:
     type: file_generic

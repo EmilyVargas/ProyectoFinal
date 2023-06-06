@@ -6,9 +6,10 @@ dependencies:
     - field.field.node.listado_de_posts_por_categoria.body
     - node.type.listado_de_posts_por_categoria
     - views.view.listado_de_posts_por_categoria
+    - views.view.listado_de_posts_relacionados_por_categoria
+    - views.view.listado_de_ultimos_posts_por_categoria
   module:
     - layout_builder
-    - layout_discovery
     - text
     - user
     - views
@@ -18,14 +19,28 @@ third_party_settings:
     allow_custom: false
     sections:
       -
-        layout_id: layout_onecol
+        layout_id: layout_twocol_section
         layout_settings:
-          label: 'Listado por Categoria'
+          label: Listados
           context_mapping: {  }
+          column_widths: 67-33
         components:
-          160c7931-118e-49d9-bd4a-6253badcd408:
-            uuid: 160c7931-118e-49d9-bd4a-6253badcd408
-            region: content
+          f39e24e1-7f0c-49a1-984d-54382140b24e:
+            uuid: f39e24e1-7f0c-49a1-984d-54382140b24e
+            region: second
+            configuration:
+              id: 'views_block:listado_de_ultimos_posts_por_categoria-block_1'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 0
+            additional: {  }
+          6e9cde24-a01e-4d2b-84a3-e28b423c63fb:
+            uuid: 6e9cde24-a01e-4d2b-84a3-e28b423c63fb
+            region: first
             configuration:
               id: 'views_block:listado_de_posts_por_categoria-block_1'
               label: ''
@@ -35,6 +50,19 @@ third_party_settings:
               views_label: ''
               items_per_page: none
             weight: 0
+            additional: {  }
+          5c28289c-1f36-41d9-99cb-7165d677780c:
+            uuid: 5c28289c-1f36-41d9-99cb-7165d677780c
+            region: first
+            configuration:
+              id: 'views_block:listado_de_posts_relacionados_por_categoria-block_1'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 1
             additional: {  }
         third_party_settings: {  }
 id: node.listado_de_posts_por_categoria.default

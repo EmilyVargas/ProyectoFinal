@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/sites\/default\/files\/2023-06\/generateImage_l7eFcP.gif"
+        },
+        "type": {
+            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/file\/file"
+        },
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a4012900-3aba-415a-b6b2-dd5d94cc1cbc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3770bc9-05c7-4edc-b2d6-5830fec39adf"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "generateImage_l7eFcP.gif"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-06\/generateImage_l7eFcP.gif",
+            "url": "\/sites\/default\/files\/2023-06\/generateImage_l7eFcP.gif"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/gif"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 3739
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-06T04:00:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-06-06T04:00:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

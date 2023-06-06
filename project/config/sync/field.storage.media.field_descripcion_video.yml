@@ -1,0 +1,21 @@
+uuid: 762be65d-d601-4033-a893-293d52b73309
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_descripcion_video
+field_name: field_descripcion_video
+entity_type: media
+type: string
+settings:
+  max_length: 50
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
