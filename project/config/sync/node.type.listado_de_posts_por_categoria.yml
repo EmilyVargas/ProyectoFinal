@@ -1,4 +1,4 @@
-uuid: 15c1356d-bad2-47d8-a236-03d931f8aa48
+uuid: 8f6bf1ea-a244-4599-86c6-5baee4e7cb13
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Listado de Posts'
-type: lading_page
+name: 'Listado de Posts por Categoria'
+type: listado_de_posts_por_categoria
 description: ''
 help: ''
 new_revision: true

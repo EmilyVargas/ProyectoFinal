@@ -1,16 +1,20 @@
-uuid: a40abaff-8044-4359-a2fe-ae5be1037662
+uuid: 296441d5-751a-4bcc-8a5d-dfd6967f4c5b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_enlaces_relacionados
+    - field.storage.node.field_categoria
+    - field.storage.node.field_titulo
     - node.type.publicacion
+    - taxonomy.vocabulary.categoria
+  content:
+    - 'taxonomy_term:categoria:8eff3357-6259-4dd9-87c1-c1270022862b'
   module:
-    - link
     - node
+    - taxonomy
     - user
-id: bloque_posts
-label: 'Bloque Posts'
+id: listado_de_posts_por_categoria
+label: 'Listado de Posts por Categoría'
 module: views
 description: ''
 tag: ''
@@ -23,19 +27,17 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Bloque Posts'
+      title: 'Listado de Posts por Categoria'
       fields:
-        uid:
-          id: uid
-          table: node_field_data
-          field: uid
+        field_titulo:
+          id: field_titulo
+          table: node__field_titulo
+          field: field_titulo
           relationship: none
           group_type: group
           admin_label: ''
-          entity_type: node
-          entity_field: uid
           plugin_id: field
-          label: ''
+          label: Titulo
           exclude: false
           alter:
             alter_text: false
@@ -68,7 +70,70 @@ display:
           element_class: ''
           element_label_type: ''
           element_label_class: ''
-          element_label_colon: false
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: false
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_categoria:
+          id: field_categoria
+          table: node__field_categoria
+          field: field_categoria
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: Categoría
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
@@ -90,78 +155,27 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        field_enlaces_relacionados:
-          id: field_enlaces_relacionados
-          table: node__field_enlaces_relacionados
-          field: field_enlaces_relacionados
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: field
-          label: ''
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: false
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: uri
-          type: link
-          settings:
-            trim_length: 80
-            url_only: false
-            url_plain: false
-            rel: '0'
-            target: '0'
-          group_column: ''
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 4
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
       pager:
-        type: some
+        type: full
         options:
           offset: 0
-          items_per_page: 1
+          items_per_page: 5
+          total_pages: null
+          id: 0
+          tags:
+            next: 'Next ›'
+            previous: '‹ Previous'
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
       exposed_form:
         type: basic
         options:
@@ -219,8 +233,57 @@ display:
           plugin_id: bundle
           value:
             publicacion: publicacion
+        field_categoria_target_id:
+          id: field_categoria_target_id
+          table: node__field_categoria
+          field: field_categoria_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: taxonomy_index_tid
+          operator: or
+          value:
+            1: 1
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_categoria_target_id_op
+            label: Categoría
+            description: ''
+            use_operator: false
+            operator: field_categoria_target_id_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_categoria_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              content_editor: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          vid: categoria
+          type: select
+          hierarchy: true
+          limit: true
+          error_message: true
       style:
-        type: default
+        type: table
       row:
         type: fields
       query:
@@ -240,10 +303,14 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_enlaces_relacionados'
+        - 'config:field.storage.node.field_categoria'
+        - 'config:field.storage.node.field_titulo'
   block_1:
     id: block_1
     display_title: Block
@@ -256,7 +323,11 @@ display:
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
+        - url
+        - url.query_args
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
-        - 'config:field.storage.node.field_enlaces_relacionados'
+        - 'config:field.storage.node.field_categoria'
+        - 'config:field.storage.node.field_titulo'

@@ -1,0 +1,30 @@
+uuid: b05046a5-32df-4a4d-a411-3e902297db2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.listado_de_posts_por_categoria.body
+    - node.type.listado_de_posts_por_categoria
+  module:
+    - text
+    - user
+id: node.listado_de_posts_por_categoria.teaser
+targetEntityType: node
+bundle: listado_de_posts_por_categoria
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

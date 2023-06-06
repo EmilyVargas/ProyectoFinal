@@ -5,44 +5,50 @@ dependencies:
   config:
     - field.field.node.lading_page.body
     - node.type.lading_page
+    - views.view.lista_de_categorias
+    - views.view.listado_de_todos_los_posts
   module:
     - layout_builder
     - text
     - user
+    - views
 third_party_settings:
   layout_builder:
     enabled: true
     allow_custom: false
     sections:
       -
-        layout_id: layout_onecol
+        layout_id: layout_twocol_section
         layout_settings:
-          label: ''
+          label: 'Listado de todos los Posts'
+          context_mapping: {  }
+          column_widths: 75-25
         components:
-          e3d89a1b-4c78-4679-8c7b-134aa4b6053a:
-            uuid: e3d89a1b-4c78-4679-8c7b-134aa4b6053a
-            region: content
+          9eeb6097-f255-4d03-8917-c61e40ae64b2:
+            uuid: 9eeb6097-f255-4d03-8917-c61e40ae64b2
+            region: first
             configuration:
-              id: 'extra_field_block:node:lading_page:links'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
+              id: 'views_block:listado_de_todos_los_posts-block_1'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
             weight: 0
             additional: {  }
-          6e4d7f6a-8ba4-4964-b88f-96976cc75836:
-            uuid: 6e4d7f6a-8ba4-4964-b88f-96976cc75836
-            region: content
+          61484132-a20b-4ff4-9682-0997e0c9a2d6:
+            uuid: 61484132-a20b-4ff4-9682-0997e0c9a2d6
+            region: second
             configuration:
-              id: 'field_block:node:lading_page:body'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: text_default
-                label: hidden
-                settings: {  }
-                third_party_settings: {  }
-            weight: 1
+              id: 'views_block:lista_de_categorias-block_1'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 0
             additional: {  }
         third_party_settings: {  }
 id: node.lading_page.default

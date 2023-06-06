@@ -1,14 +1,14 @@
-uuid: b9e0d515-9519-4081-ad59-6e838a26195b
+uuid: f85ac498-ee59-4941-a635-76e3524b0ce9
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.lading_page
-id: node.lading_page.title
+    - node.type.listado_de_posts_por_categoria
+id: node.listado_de_posts_por_categoria.title
 field_name: title
 entity_type: node
-bundle: lading_page
-label: 'Listado de Posts'
+bundle: listado_de_posts_por_categoria
+label: 'Listado de Posts por Categoria'
 description: ''
 required: true
 translatable: true
