@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - block_content.type.basic
     - field.field.node.galeria_de_videos.body
     - node.type.galeria_de_videos
     - views.view.galeria_de_videoblogs
@@ -29,11 +30,25 @@ third_party_settings:
             configuration:
               id: 'views_block:galeria_de_videoblogs-block_1'
               label: ''
-              label_display: visible
+              label_display: '0'
               provider: views
               context_mapping: {  }
               views_label: ''
               items_per_page: none
+            weight: 1
+            additional: {  }
+          8b16afbb-986e-4575-85df-bedeb7421dfd:
+            uuid: 8b16afbb-986e-4575-85df-bedeb7421dfd
+            region: content
+            configuration:
+              id: 'inline_block:basic'
+              label: VIdeoBlogs
+              label_display: '0'
+              provider: layout_builder
+              view_mode: full
+              context_mapping: {  }
+              block_revision_id: 1
+              block_serialized: null
             weight: 0
             additional: {  }
         third_party_settings: {  }

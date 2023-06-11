@@ -1,0 +1,22 @@
+uuid: 513b44f9-ad64-459b-b359-9929ab5756f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: patron_para_post
+label: 'patron para post'
+type: 'canonical_entities:node'
+pattern: '/post/[node:title]'
+selection_criteria:
+  def2c13c-d119-48ff-8b12-bb2a059f85cb:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: def2c13c-d119-48ff-8b12-bb2a059f85cb
+    context_mapping:
+      node: node
+    bundles:
+      publicacion: publicacion
+selection_logic: and
+weight: -5
+relationships: {  }

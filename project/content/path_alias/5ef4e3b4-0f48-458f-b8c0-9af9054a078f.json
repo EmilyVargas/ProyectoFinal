@@ -1,0 +1,40 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-emilyvargas-proyectofin-8r9r1itocmq.ws-us99.gitpod.io\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5ef4e3b4-0f48-458f-b8c0-9af9054a078f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/3"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/post\/publicacion-de-prueba"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

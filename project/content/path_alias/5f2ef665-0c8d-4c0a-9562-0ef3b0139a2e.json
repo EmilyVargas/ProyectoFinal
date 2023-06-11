@@ -1,0 +1,40 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-emilyvargas-proyectofin-8r9r1itocmq.ws-us99.gitpod.io\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5f2ef665-0c8d-4c0a-9562-0ef3b0139a2e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/6"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/post\/iaceo-voco"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

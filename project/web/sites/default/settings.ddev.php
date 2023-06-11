@@ -28,7 +28,7 @@ $databases['default']['default'] = array(
   'prefix' => "",
 );
 
-$settings['hash_salt'] = 'pGvUAiZjQCdkzwTlvzrdyFdZbvUDfrefSdBYtGyAlTkvHmGUMHyDCxCBFLwMEctW';
+$settings['hash_salt'] = 'EUybwGseIIFqWCXXoeSngaicmmaiFVZwcgpnqQxKBXXZsncBnSIfNBGguzgpRvlk';
 
 // This will prevent Drupal from setting read-only permissions on sites/default.
 $settings['skip_permissions_hardening'] = TRUE;
@@ -52,5 +52,3 @@ $config['symfony_mailer.mailer_transport.sendmail']['configuration']['user']='';
 $config['symfony_mailer.mailer_transport.sendmail']['configuration']['pass']='';
 $config['symfony_mailer.mailer_transport.sendmail']['configuration']['host']='localhost';
 $config['symfony_mailer.mailer_transport.sendmail']['configuration']['port']='1025';
-
-$settings['default_content_deploy_content_directory'] = '../content';
