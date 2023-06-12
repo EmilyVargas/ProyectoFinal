@@ -261,8 +261,7 @@ $databases = [];
  * directory in the public files path. The setting below allows you to set
  * its location.
  */
-$settings['config_sync_directory'] = '../config/sync';
-$settings['default_content_deploy_content_directory'] = '../content';
+
 
 /**
  * Settings:
@@ -761,6 +760,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 if (file_exists(__DIR__ . '/settings.ddev.php') && getenv('IS_DDEV_PROJECT') == 'true') {
   include __DIR__ . '/settings.ddev.php';
 }
+
+$settings['config_sync_directory'] = '../config/sync';
+$settings['default_content_deploy_content_directory'] = '../content';
 
 /**
  * Load local development override configuration, if available.
