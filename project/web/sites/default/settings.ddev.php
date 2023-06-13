@@ -52,3 +52,5 @@ $config['symfony_mailer.mailer_transport.sendmail']['configuration']['user']='';
 $config['symfony_mailer.mailer_transport.sendmail']['configuration']['pass']='';
 $config['symfony_mailer.mailer_transport.sendmail']['configuration']['host']='localhost';
 $config['symfony_mailer.mailer_transport.sendmail']['configuration']['port']='1025';
+
+$settings['default_content_deploy_content_directory'] = '../content';
