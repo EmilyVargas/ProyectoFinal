@@ -12,15 +12,81 @@ dependencies:
     - field.field.node.publicacion.field_palabras_clave
     - field.field.node.publicacion.field_titulo
     - node.type.publicacion
+    - views.view.posts_relacionados
   module:
     - comment
     - image
     - layout_builder
     - user
+    - views
 third_party_settings:
   layout_builder:
-    enabled: false
+    enabled: true
     allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: 'Content + sidebar'
+          context_mapping: {  }
+          column_widths: 75-25
+        components:
+          cb937daa-7743-453d-a018-71a08e4c14b0:
+            uuid: cb937daa-7743-453d-a018-71a08e4c14b0
+            region: second
+            configuration:
+              id: 'field_block:node:publicacion:uid'
+              label: 'Authored by'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          1de24305-e81b-4edb-be00-38c7c8e5a0f5:
+            uuid: 1de24305-e81b-4edb-be00-38c7c8e5a0f5
+            region: second
+            configuration:
+              id: 'field_block:node:publicacion:field_enlaces_relacionados'
+              label: 'Enlaces relacionados'
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: link
+                label: above
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: '0'
+                  target: _blank
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          51e9e4fd-e149-4044-91d7-ba72dbbf7c29:
+            uuid: 51e9e4fd-e149-4044-91d7-ba72dbbf7c29
+            region: second
+            configuration:
+              id: 'views_block:posts_relacionados-block_1'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 id: node.publicacion.default
 targetEntityType: node
 bundle: publicacion

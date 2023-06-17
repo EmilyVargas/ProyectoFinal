@@ -6,13 +6,8 @@ dependencies:
     - field.storage.node.field_categoria
     - field.storage.node.field_titulo
     - node.type.publicacion
-    - taxonomy.vocabulary.categoria
-  content:
-    - 'taxonomy_term:categoria:8eff3357-6259-4dd9-87c1-c1270022862b'
   module:
-    - history
     - node
-    - taxonomy
     - user
 id: listado_de_ultimos_posts_por_categoria
 label: 'Listado de Últimos Posts por Categoría'
@@ -157,26 +152,10 @@ display:
           separator: ', '
           field_api_classes: false
       pager:
-        type: full
+        type: some
         options:
           offset: 0
-          items_per_page: 5
-          total_pages: null
-          id: 0
-          tags:
-            next: 'Next ›'
-            previous: '‹ Previous'
-            first: '« First'
-            last: 'Last »'
-          expose:
-            items_per_page: false
-            items_per_page_label: 'Items per page'
-            items_per_page_options: '5, 10, 25, 50'
-            items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
-            offset: false
-            offset_label: Offset
-          quantity: 9
+          items_per_page: 3
       exposed_form:
         type: basic
         options:
@@ -234,93 +213,6 @@ display:
           plugin_id: bundle
           value:
             publicacion: publicacion
-        field_categoria_target_id:
-          id: field_categoria_target_id
-          table: node__field_categoria
-          field: field_categoria_target_id
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: taxonomy_index_tid
-          operator: or
-          value:
-            1: 1
-          group: 1
-          exposed: true
-          expose:
-            operator_id: field_categoria_target_id_op
-            label: Categoría
-            description: ''
-            use_operator: false
-            operator: field_categoria_target_id_op
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: field_categoria_target_id
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              content_editor: '0'
-              administrator: '0'
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-          vid: categoria
-          type: select
-          hierarchy: true
-          limit: true
-          error_message: true
-        timestamp:
-          id: timestamp
-          table: history
-          field: timestamp
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: history_user_timestamp
-          operator: '='
-          value: ''
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
       style:
         type: table
       row:
@@ -338,13 +230,10 @@ display:
       footer: {  }
       display_extenders: {  }
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
-        - url.query_args
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -358,13 +247,10 @@ display:
     display_options:
       display_extenders: {  }
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
-        - url.query_args
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:

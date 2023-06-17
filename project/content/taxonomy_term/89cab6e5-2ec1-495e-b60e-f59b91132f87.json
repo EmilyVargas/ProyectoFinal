@@ -1,18 +1,18 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/taxonomy\/term\/12?_format=hal_json"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/taxonomy\/term\/5?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/type\/taxonomy_term\/palabras_clave"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/taxonomy_term\/palabras_clave"
         },
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/taxonomy_term\/palabras_clave\/parent": [
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/taxonomy_term\/palabras_clave\/parent": [
             null
         ]
     },
     "tid": [
         {
-            "value": 12
+            "value": 5
         }
     ],
     "uuid": [
@@ -55,7 +55,7 @@
         }
     ],
     "_embedded": {
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us98.gitpod.io\/rest\/relation\/taxonomy_term\/palabras_clave\/parent": [
+        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/taxonomy_term\/palabras_clave\/parent": [
             null
         ]
     },

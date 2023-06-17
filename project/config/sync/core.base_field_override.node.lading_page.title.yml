@@ -8,7 +8,7 @@ id: node.lading_page.title
 field_name: title
 entity_type: node
 bundle: lading_page
-label: 'Listado de Posts'
+label: Title
 description: ''
 required: true
 translatable: true
