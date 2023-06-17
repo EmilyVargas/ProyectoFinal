@@ -9,7 +9,7 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Galería de Videos'
+name: 'Galería de Videos BORRAR'
 type: galeria_de_videos
 description: ''
 help: ''

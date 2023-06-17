@@ -86,6 +86,123 @@ third_party_settings:
               items_per_page: none
             weight: 2
             additional: {  }
+          692982d9-d11b-4469-8e44-81818671473a:
+            uuid: 692982d9-d11b-4469-8e44-81818671473a
+            region: first
+            configuration:
+              id: 'field_block:node:publicacion:field_titulo'
+              label: Titulo
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: -3
+            additional: {  }
+          79427f6b-bebd-4f1c-a0e6-8c5b46dbf12f:
+            uuid: 79427f6b-bebd-4f1c-a0e6-8c5b46dbf12f
+            region: first
+            configuration:
+              id: 'field_block:node:publicacion:field_imagenes'
+              label: Imágenes
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: above
+                settings:
+                  image_link: ''
+                  image_style: ''
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: -2
+            additional: {  }
+          e50eff31-961c-4df8-ae86-25741352d7aa:
+            uuid: e50eff31-961c-4df8-ae86-25741352d7aa
+            region: first
+            configuration:
+              id: 'field_block:node:publicacion:field_descripcion'
+              label: Descripción
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: basic_string
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          ea37ea01-417e-4dc9-af56-1a0bd29e8c2d:
+            uuid: ea37ea01-417e-4dc9-af56-1a0bd29e8c2d
+            region: first
+            configuration:
+              id: 'field_block:node:publicacion:field_palabras_clave'
+              label: 'Palabras clave'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          8f7bf016-9f1c-4524-9e15-1392331f3a35:
+            uuid: 8f7bf016-9f1c-4524-9e15-1392331f3a35
+            region: first
+            configuration:
+              id: 'field_block:node:publicacion:field_comentarios'
+              label: Comentarios
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: comment_default
+                label: above
+                settings:
+                  view_mode: default
+                  pager_id: 0
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          b0e8f943-88d5-423d-b445-5a80a256e749:
+            uuid: b0e8f943-88d5-423d-b445-5a80a256e749
+            region: first
+            configuration:
+              id: 'field_block:node:publicacion:field_categoria'
+              label: Categoría
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
         third_party_settings: {  }
 id: node.publicacion.default
 targetEntityType: node
