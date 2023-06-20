@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: b345124b-b493-4551-9566-2a89de95f1d8
-name: Proyecto
+name: 'DRUPAL ALCHEMIST'
 mail: admin@example.com
 slogan: ''
 page:

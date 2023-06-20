@@ -9,12 +9,12 @@
     },
     "id": [
         {
-            "value": 15
+            "value": 3
         }
     ],
     "uuid": [
         {
-            "value": "bf56b2e5-0a7b-431c-b324-5095636a9bd2"
+            "value": "f36a3bab-d8e6-45f9-83cf-a33888275c97"
         }
     ],
     "langcode": [
@@ -24,12 +24,12 @@
     ],
     "path": [
         {
-            "value": "\/node\/6"
+            "value": "\/node\/4"
         }
     ],
     "alias": [
         {
-            "value": "\/post\/bene-comis-importunus-magna"
+            "value": "\/post\/publicacion-de-prueba"
         }
     ],
     "status": [

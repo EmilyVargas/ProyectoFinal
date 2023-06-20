@@ -1,26 +1,26 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/node\/7?_format=hal_json"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/homepage?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/node\/lading_page"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/node\/lading_page"
         },
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/user\/1?_format=hal_json"
+                "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json"
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/user\/1?_format=hal_json",
+                "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ]
     },
     "nid": [
         {
-            "value": 7
+            "value": 8
         }
     ],
     "uuid": [
@@ -46,36 +46,36 @@
         }
     ],
     "_embedded": {
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/user\/1?_format=hal_json"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "b66e9f50-0980-4ccc-8d3d-b069447d239b"
+                        "value": "1f9ed070-39e1-414e-9eb7-bbdfa6292eee"
                     }
                 ]
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/user\/1?_format=hal_json"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "b66e9f50-0980-4ccc-8d3d-b069447d239b"
+                        "value": "1f9ed070-39e1-414e-9eb7-bbdfa6292eee"
                     }
                 ],
                 "lang": "en"
@@ -134,8 +134,8 @@
     ],
     "path": [
         {
-            "alias": null,
-            "pid": null,
+            "alias": "\/homepage",
+            "pid": 20,
             "langcode": "en",
             "lang": "en"
         }

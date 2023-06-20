@@ -4,12 +4,12 @@
             "href": ""
         },
         "type": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/path_alias\/path_alias"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/path_alias\/path_alias"
         }
     },
     "id": [
         {
-            "value": 9
+            "value": 10
         }
     ],
     "uuid": [
@@ -24,12 +24,12 @@
     ],
     "path": [
         {
-            "value": "\/node\/3"
+            "value": "\/node\/4"
         }
     ],
     "alias": [
         {
-            "value": "\/post\/iaceo-voco"
+            "value": "\/post\/publicacion-de-prueba-0"
         }
     ],
     "status": [
