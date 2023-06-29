@@ -1,0 +1,40 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c743c8db-2869-4c39-9aee-e37896b1224a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/8"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/homepage"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+uuid: aa33a8d6-f35e-41fc-a2fe-fc0ec613f32b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - temaproyecto
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: temaproyecto_breadcrumbs
+theme: temaproyecto
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

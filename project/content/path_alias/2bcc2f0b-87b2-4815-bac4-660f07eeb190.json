@@ -1,0 +1,40 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2bcc2f0b-87b2-4815-bac4-660f07eeb190"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/6"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/post\/bene-comis-importunus-magna"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

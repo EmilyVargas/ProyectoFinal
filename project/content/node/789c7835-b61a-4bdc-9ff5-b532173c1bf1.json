@@ -1,19 +1,19 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/galeria-de-videos?_format=hal_json"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/galeria-de-videos?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/node\/lading_page"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/node\/lading_page"
         },
-        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/1?_format=hal_json"
+                "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/user\/1?_format=hal_json"
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json",
+                "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ]
@@ -41,41 +41,41 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-06-20T03:41:02+00:00",
+            "value": "2023-06-29T20:05:29+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_embedded": {
-        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/1?_format=hal_json"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "392aacc6-53ab-441f-a4f0-fd1521efc27f"
+                        "value": "1c9c29c3-da88-4cca-88a3-2120060984bb"
                     }
                 ]
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "1f9ed070-39e1-414e-9eb7-bbdfa6292eee"
+                        "value": "6fef191d-e076-4586-98ef-939d411787a5"
                     }
                 ],
                 "lang": "en"
@@ -103,7 +103,7 @@
     ],
     "changed": [
         {
-            "value": "2023-06-20T03:41:02+00:00",
+            "value": "2023-06-29T20:05:29+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -135,7 +135,7 @@
     "path": [
         {
             "alias": "\/galeria-de-videos",
-            "pid": 19,
+            "pid": 11,
             "langcode": "en",
             "lang": "en"
         }

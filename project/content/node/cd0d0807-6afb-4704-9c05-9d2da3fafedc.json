@@ -1,19 +1,19 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/homepage?_format=hal_json"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/homepage?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/node\/lading_page"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/node\/lading_page"
         },
-        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json"
+                "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/user\/0?_format=hal_json"
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json",
+                "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ]
@@ -46,36 +46,36 @@
         }
     ],
     "_embedded": {
-        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/node\/lading_page\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "1f9ed070-39e1-414e-9eb7-bbdfa6292eee"
+                        "value": "6fef191d-e076-4586-98ef-939d411787a5"
                     }
                 ]
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/node\/lading_page\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "1f9ed070-39e1-414e-9eb7-bbdfa6292eee"
+                        "value": "6fef191d-e076-4586-98ef-939d411787a5"
                     }
                 ],
                 "lang": "en"
@@ -135,7 +135,7 @@
     "path": [
         {
             "alias": "\/homepage",
-            "pid": 20,
+            "pid": 22,
             "langcode": "en",
             "lang": "en"
         }

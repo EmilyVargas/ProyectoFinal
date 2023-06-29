@@ -1,0 +1,22 @@
+uuid: c07c62cc-23a1-4e01-a2bd-f305a29c6fe3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - temaproyecto
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: temaproyecto_messages
+theme: temaproyecto
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

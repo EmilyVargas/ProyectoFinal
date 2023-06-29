@@ -1,0 +1,40 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/path_alias\/path_alias"
+        }
+    },
+    "id": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6fd56317-71a3-4b9b-ac47-17db84acdb97"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/5"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/post\/aptent-letalis-meus"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

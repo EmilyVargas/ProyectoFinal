@@ -1,26 +1,26 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/media\/8\/edit?_format=hal_json"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/media\/8\/edit?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/media\/videoblogs"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/media\/videoblogs"
         },
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/media\/videoblogs\/uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/media\/videoblogs\/uid": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/user\/0?_format=hal_json",
+                "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/media\/videoblogs\/thumbnail": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/media\/videoblogs\/thumbnail": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/sites\/default\/files\/media-icons\/generic\/video.png",
+                "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/sites\/default\/files\/media-icons\/generic\/video.png",
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/media\/videoblogs\/field_media_video_file": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/media\/videoblogs\/field_media_video_file": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/sites\/default\/files\/2023-06\/wsd71I7pCI.txt",
+                "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/sites\/default\/files\/2023-06\/wsd71I7pCI.txt",
                 "lang": "en"
             }
         ]
@@ -48,7 +48,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-06-13T03:26:48+00:00",
+            "value": "2023-06-29T20:03:55+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -59,32 +59,32 @@
         }
     ],
     "_embedded": {
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/media\/videoblogs\/uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/media\/videoblogs\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/user\/0?_format=hal_json"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "660c9248-bbea-480f-acf7-5af89784c606"
+                        "value": "6fef191d-e076-4586-98ef-939d411787a5"
                     }
                 ],
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/media\/videoblogs\/thumbnail": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/media\/videoblogs\/thumbnail": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/sites\/default\/files\/media-icons\/generic\/video.png"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/sites\/default\/files\/media-icons\/generic\/video.png"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/file\/file"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [
@@ -95,14 +95,14 @@
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/media\/videoblogs\/field_media_video_file": [
+        "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/relation\/media\/videoblogs\/field_media_video_file": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/sites\/default\/files\/2023-06\/wsd71I7pCI.txt"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/sites\/default\/files\/2023-06\/wsd71I7pCI.txt"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/file\/file"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-bbsc72rwtwt.ws-us101.gitpod.io\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [
@@ -129,7 +129,7 @@
     ],
     "changed": [
         {
-            "value": "2023-06-13T03:26:48+00:00",
+            "value": "2023-06-29T20:03:55+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

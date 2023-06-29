@@ -1,0 +1,22 @@
+uuid: f596c6ab-0839-4a82-ae68-798e8a646281
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - temaproyecto
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: temaproyecto_content
+theme: temaproyecto
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
