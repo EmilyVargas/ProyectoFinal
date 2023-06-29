@@ -1,0 +1,22 @@
+uuid: 3d7135db-20b3-4c4a-adb2-f0334de94776
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: patron_landpages
+label: 'patron landpages'
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  3beeb2cb-1376-4594-af35-e0a7c2664896:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 3beeb2cb-1376-4594-af35-e0a7c2664896
+    context_mapping:
+      node: node
+    bundles:
+      lading_page: lading_page
+selection_logic: and
+weight: -5
+relationships: {  }

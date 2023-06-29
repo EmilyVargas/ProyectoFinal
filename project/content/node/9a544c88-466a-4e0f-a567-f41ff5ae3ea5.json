@@ -1,34 +1,34 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/post\/iaceo-voco?_format=hal_json"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/post\/publicacion-de-prueba-0?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/node\/publicacion"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/node\/publicacion"
         },
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/revision_uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/revision_uid": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/user\/0?_format=hal_json"
+                "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json"
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/uid": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/user\/0?_format=hal_json",
+                "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/field_palabras_clave": [
+        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/field_palabras_clave": [
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/taxonomy\/term\/9?_format=hal_json"
+                "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/taxonomy\/term\/9?_format=hal_json"
             },
             {
-                "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/taxonomy\/term\/10?_format=hal_json"
+                "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/taxonomy\/term\/10?_format=hal_json"
             }
         ]
     },
     "nid": [
         {
-            "value": 3
+            "value": 4
         }
     ],
     "uuid": [
@@ -54,49 +54,49 @@
         }
     ],
     "_embedded": {
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/revision_uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/user\/0?_format=hal_json"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "660c9248-bbea-480f-acf7-5af89784c606"
+                        "value": "1f9ed070-39e1-414e-9eb7-bbdfa6292eee"
                     }
                 ]
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/uid": [
+        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/user\/0?_format=hal_json"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/user\/user"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "660c9248-bbea-480f-acf7-5af89784c606"
+                        "value": "1f9ed070-39e1-414e-9eb7-bbdfa6292eee"
                     }
                 ],
                 "lang": "en"
             }
         ],
-        "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/field_palabras_clave": [
+        "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/relation\/node\/publicacion\/field_palabras_clave": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/taxonomy\/term\/9?_format=hal_json"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/taxonomy\/term\/9?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/taxonomy_term\/palabras_clave"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/taxonomy_term\/palabras_clave"
                     }
                 },
                 "uuid": [
@@ -108,10 +108,10 @@
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/taxonomy\/term\/10?_format=hal_json"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/taxonomy\/term\/10?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/taxonomy_term\/palabras_clave"
+                        "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/taxonomy_term\/palabras_clave"
                     }
                 },
                 "uuid": [
@@ -143,7 +143,7 @@
     ],
     "changed": [
         {
-            "value": "2023-06-13T03:26:48+00:00",
+            "value": "2023-06-20T03:24:10+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -174,8 +174,8 @@
     ],
     "path": [
         {
-            "alias": "\/post\/iaceo-voco",
-            "pid": 9,
+            "alias": "\/post\/publicacion-de-prueba-0",
+            "pid": 10,
             "langcode": "en",
             "lang": "en"
         }
@@ -184,7 +184,7 @@
         {
             "status": 2,
             "cid": 0,
-            "last_comment_timestamp": 1686078695,
+            "last_comment_timestamp": 1686626808,
             "last_comment_name": null,
             "last_comment_uid": 0,
             "comment_count": 0

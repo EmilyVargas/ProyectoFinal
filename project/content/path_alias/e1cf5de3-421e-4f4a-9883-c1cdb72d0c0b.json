@@ -4,12 +4,12 @@
             "href": ""
         },
         "type": {
-            "href": "https:\/\/8080-emilyvargas-proyectofin-nint8ac9u9z.ws-us100.gitpod.io\/rest\/type\/path_alias\/path_alias"
+            "href": "https:\/\/8080-emilyvargas-proyectofin-wbfkesfo6lw.ws-us100.gitpod.io\/rest\/type\/path_alias\/path_alias"
         }
     },
     "id": [
         {
-            "value": 2
+            "value": 18
         }
     ],
     "uuid": [
@@ -24,7 +24,7 @@
     ],
     "path": [
         {
-            "value": "\/node\/2"
+            "value": "\/node\/3"
         }
     ],
     "alias": [
