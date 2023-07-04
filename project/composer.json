@@ -24,6 +24,7 @@
         "drupal/default_content_deploy": "^2.0",
         "drupal/devel": "^5.1",
         "drupal/pathauto": "^1.11",
+        "drupal/ui_patterns": "^1.7",
         "drush/drush": "^11.5"
     },
     "conflict": {
