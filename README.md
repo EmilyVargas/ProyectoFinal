@@ -1,4 +1,5 @@
-# A Drupal via DDEV template on Gitpod
+#A Drupal via DDEV template on Gitpod
+#Proyecto final de Drupal. Integrantes: EMily Vargas, Audry Quiros y Nicole Brenes 
 
 This is a [Drupal via DDEV](https://github.com/drud/ddev) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
